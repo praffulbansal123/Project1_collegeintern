@@ -1,4 +1,4 @@
-# Project1_collegeintern# Thorium
+# Project1_college_intern
 
 ## Open to Intern Project Requirement
 
@@ -19,7 +19,7 @@
 
 ### POST /functionup/colleges
 - Create a college - a document for each member of the group
-- The logo link will be provided to you by the mentors. This link is a s3 (Amazon's Simple Service) url. Try accessing the link to see if the link is public or not.
+- The logo link is taken from the web
 
   `Endpoint: BASE_URL/functionup/colleges`
 
