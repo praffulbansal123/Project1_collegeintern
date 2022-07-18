@@ -3,13 +3,14 @@ const InternModel = require("../models/internModel.js")
 
 const isValid1 = function(data){
     if(typeof (data) === 'undefined' || data === null) return false
-    if(typeof(data) !== 'string' && data.trim().length <1) return false
+    if(typeof(data) === 'string' && data.trim().length <1) return false
+    if(typeof (data) !== 'string') return false
     return true
 }
 
 const isValid2 = function(data){
     if(typeof (data) === 'undefined' || data === null) return false
-    if(typeof(data) !== 'number' && data.trim().length <1) return false
+    if(typeof(data) !== 'number') return false
     return true
 }
 

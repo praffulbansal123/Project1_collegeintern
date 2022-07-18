@@ -3,7 +3,8 @@ const InternModel = require("../models/internModel.js")
 
 const isValid = function (data) {
     if (typeof (data) === 'undefined' || data === null) return false
-    if (typeof (data) !== 'string' && data.trim().length < 1) return false
+    if (typeof (data) === 'string' && data.trim().length < 1) return false
+    if(typeof (data) !== 'string') return false
     return true
 }
 const createCollege = async function (req, res) {

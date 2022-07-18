@@ -45,7 +45,7 @@
 
 Refer below sample
 
- ![A Postman collection and request sample](assets/Postman-collection-sample.png)
+ ![A Postman collection and request sample](https://app.getpostman.com/join-team?invite_code=2b80cffe888bc4aca7910704f31f8747&target_code=2e42ad74dd074e26d82165e0ae187e06)
 
 ## Response
 
